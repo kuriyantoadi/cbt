@@ -1,9 +1,9 @@
 <?php
 // Membuat variabel, ubah sesuai dengan nama host dan database pada hosting
-$host	= "192.168.10.100";
+$host	= "localhost";
 $user	= "root";
-$pass	= "123";
-$db	= "dbcbt";
+$pass	= "";
+$db	= "cbt";
 
 //Menggunakan objek mysqli untuk membuat koneksi dan menyimpanya dalam variabel $mysqli
 $mysqli = new mysqli($host, $user, $pass, $db);
